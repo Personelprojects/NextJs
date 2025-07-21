@@ -120,3 +120,120 @@
   background-color: #1976d2;
   color: white;
 }
+
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 2rem;
+}
+
+.contract-form{
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contract-form h2{
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+
+.contract-group{
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.contract-label{
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #5b5b5b;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+
+.contract-input{
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+
+.contract-input:focus{
+  border-color: #1976d2;
+  box-shadow: 0 0 0 3px rgba(25, 118, 210, 0.15);
+  outline: none;
+}
+
+
+.option-block{
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background: #f8f9fa;
+  transition: box-shadow 0.2s;
+}
+
+
+.option-block:hover{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.contract-button{
+  background: #1976d2;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contract-button:hover{
+  background: #1565c0;
+}
+
+.contract-button.secondary{
+  background: #f1f3f5;
+  color: #333;
+}
+
+.contract-button.secondary:hover{
+  background:#e1e4e8;
+}
+
+.input-group{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px){
+  .contract-form{
+    padding: 1.5rem;
+  }
+  .input-group{
+    grid-template-columns: 1fr;
+  }
+}

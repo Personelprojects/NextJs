@@ -5,19 +5,23 @@ import 'C:/Users/arunt/Documents/Projects/tailwindcss/AI/first/app/globals.css';
 export default function Home(){
     return (
         <div>
+            
             <div >
                 <nav className="home-nav">
                     <div>
                         <Link href="../current_positions/" className="nav-link">Current Positions</Link>
                     </div>
                     <div>
-                        <Link href="../Modify/" className="nav-link">Modify</Link>
+                        <Link href="../Create/" className="nav-link">Create</Link>
                     </div>
                     <div>
                         <Link href="../History/" className="nav-link">History</Link>
                     </div>
                     <div>
                         <Link href="../Notes/" className="nav-link">Notes</Link>
+                    </div>
+                    <div>
+                        <Link href="../Modify" className="nav-link">Modify</Link>
                     </div>
                 </nav>
             </div>
